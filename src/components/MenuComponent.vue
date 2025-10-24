@@ -1,9 +1,12 @@
 <template>
   <nav>
+    <h1>MENÚ</h1>
     <ul>
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/music">Música</router-link></li>
       <li><router-link to="/cinema">Cine</router-link></li>
+      <li><router-link to="/ciclovida">Ciclo de Vida</router-link></li>
+      <li><router-link to="/directivas">Directivas</router-link></li>
     </ul>
   </nav>
 </template>

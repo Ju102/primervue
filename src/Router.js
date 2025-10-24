@@ -4,6 +4,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeComponent from './components/HomeComponent.vue';
 import CinemaComponent from './components/CinemaComponent.vue';
 import MusicComponent from './components/MusicComponent.vue';
+import CicloVida from './components/CicloVida.vue';
+import DirectivasComponent from './components/DirectivasComponent.vue';
+import ParImpar from './components/ParImpar.vue'
 
 // Un array con las rutas
 
@@ -11,6 +14,9 @@ const Rutas = [
     { path: "/", component: HomeComponent },
     { path: "/cinema", component: CinemaComponent },
     { path: "/music", component: MusicComponent },
+    { path: "/ciclovida", component: CicloVida },
+    { path: "/directivas", component: DirectivasComponent },
+    { path: "/parimpar", component: ParImpar},
 
 ]
 
