@@ -7,6 +7,8 @@ import MusicComponent from './components/MusicComponent.vue';
 import CicloVida from './components/CicloVida.vue';
 import DirectivasComponent from './components/DirectivasComponent.vue';
 import ParImpar from './components/ParImpar.vue'
+import PropiedadConmutada from './components/PropiedadConmutada.vue';
+import MetodosFilters from './components/MetodosFilters.vue';
 
 // Un array con las rutas
 
@@ -17,6 +19,8 @@ const Rutas = [
     { path: "/ciclovida", component: CicloVida },
     { path: "/directivas", component: DirectivasComponent },
     { path: "/parimpar", component: ParImpar},
+    { path: "/juegos", component: PropiedadConmutada},
+    { path: "/filters", component: MetodosFilters}
 
 ]
 
